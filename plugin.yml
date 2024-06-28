@@ -1,0 +1,19 @@
+name: TweakCraft
+version: 1.0
+main: example.myplugin.TweakCraft
+description: My first Minecraft plugin
+author: author
+api-version: 1.21
+commands:
+  PlayerInfo:
+    description: View player information
+    usage: /TweakCraft PlayerInfo [player_name]
+    permission: TweakCraft.PlayerInfo.use
+  InventoryInfo:
+    description: View player inventory
+    usage: /TweakCraft InventoryInfo [player_name]
+    permission: TweakCraft.InventoryInfo.use
+  Color:
+    description: Display color details
+    usage: /TweakCraft Color
+    permission: TweakCraft.Color.use  

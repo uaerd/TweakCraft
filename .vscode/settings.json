@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "api\\adventure-api-4.16.0.jar",
+        "api\\snakeyaml-1.29.jar",
+        "api\\spigot-api-1.21-R0.1-SNAPSHOT.jar"
+    ],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable"
+}
